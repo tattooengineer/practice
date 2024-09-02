@@ -1,0 +1,116 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.button-container {
+    display: flex;
+    gap: 10px;
+    position: relative;
+    z-index: 999;
+    justify-content: center;
+    margin-top: 70px;
+}
+  
+  .button {
+    padding: 12px 25px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border: 1px solid;
+  }
+  
+  .button.active {
+    background-color: white;
+    color: black;
+    border: 1px solid;
+  }
+  .credit-card-upper {
+    position: relative;
+}
+img.left-cc-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 45vh;
+}  
+img.right-cc-img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 45vh;
+}  
+.credit-card-container {
+    margin-top: 120px;
+}
+p.cc_p {
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+    margin: 0;
+    padding-top: 90px;
+}
+.credit-card-bottom {
+    display: flex;
+    margin-top: 65px;
+    gap: 4%;
+    justify-content: center;
+}
+
+.cc-box {
+    width: 28%;
+}
+.cc-content {
+    color: white;
+    margin-top: -50px;
+    padding-left: 4%;
+}
+p.cc-name {
+    margin: 0;
+    margin-top: 16px;
+    font-size: 1.5rem;
+}
+.travel-cc-box {
+    display: flex;
+    gap: 3%;
+    margin-top: 15px;
+}
+.travel-cc-box > div {
+    color: #E9D9AF;
+    background: linear-gradient(200.74deg, rgba(214, 211, 194, 0.2) 0%, rgba(92, 92, 92, 0.14) 100%);
+    padding: 5px 10px;
+    font-size: 0.7rem;
+}
+p.Cashback-cc {
+    margin: 0;
+    color: #FFFFFF;
+    margin-top: 15px;
+    font-size: 1.2rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+p.Cashback-cc-cont {
+    margin: 0;
+    margin-top: 10px;
+    font-size: 1rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.btn-c {
+    display: flex;
+    align-items: center;
+    gap: 3%;
+    margin-top: 15px;
+}
+.btn-ar > img{
+    width: 25px;
+}
+button.cc-btn {
+    background: black;
+    border: none;
+    color: #E4C2A2;
+    padding: 0;
+    font-size: 1.1rem;
+}

@@ -1,0 +1,20 @@
+.lounge_flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+.lounge-box_smallimg {
+    width: 65%;
+    margin: 0 auto;
+}
+.lounge-box_bigim {
+    margin-top: 80px;
+}
+.lounge-box_small {
+    position: relative;
+}
+.bgimg {
+    position: absolute;
+    top: -55%;
+}

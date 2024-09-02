@@ -1,0 +1,26 @@
+.lounge_parent {
+    color: white;
+    text-align: center;
+    margin-top: 80px;
+}
+p.lounger-head {
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+p.lounger-cont {
+    margin: 0;
+    margin-top: 10px;
+    font-size: 1.6rem;
+}
+button.comparebtm-btn-3 {
+    padding: 12px;
+    width: 225px;
+    border: 1.5px solid gray;
+    border-radius: 6px;
+    color: #FFE9BE;
+    background: linear-gradient(181deg, #D6D3C233, #5C5C5C24);
+    font-size: 1rem;
+    box-shadow: inset 5px 8px 10px #8080802b;
+    margin-top: 20px;
+  }

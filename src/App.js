@@ -1,23 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
 
+import Header from "./Components/Header";
+import BestCard from "./Components/BestCard";
+import OfferSection from "./Components/OfferSection";
+import TraingleCardContainer from "./Components/TraingleCardContainer";
+import CreditCardContainer from "./Components/CreditCardContainer";
+import CompareCards from "./Components/CompareCards";
+import CompareBottom from "./Components/CompareBottom";
+import LoungerFinder from "./Components/LoungerFinder";
+import Tata from "./Components/Tata";
+import Footer from "./Components/Footer";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <BestCard />
+      <OfferSection />
+      <TraingleCardContainer />
+      <CreditCardContainer/>
+      <CompareCards/>
+      <CompareBottom/>
+      <LoungerFinder/>
+      <Tata/>
+      <Footer/>
     </div>
   );
 }

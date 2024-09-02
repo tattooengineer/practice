@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+.footer {
+    display: flex;
+    font-family: "Roboto Slab", serif;
+    justify-content: center;
+    padding: 60px;
+    background: #1b1a1a;
+}
+p.f-p {
+    margin: 0;
+    color: #999999;
+    font-size: 0.8rem;
+    line-height: 200%;
+    margin-top: 25px;
+    margin-bottom: 100px;
+    font-family: "Roboto Slab", serif;
+}
+.footer-left, .footer-right {
+    width: 50%;
+    font-family: "Roboto Slab", serif;
+    color: #999999;
+}
+ul {
+    list-style: none;
+    padding-left: 0%;
+}
+p.f-h {
+    color: white;
+    font-size: 1.1rem;
+    font-family: "Roboto Slab", serif;
+}
+.top-right-f {
+    display: flex;
+    gap: 5%;
+
+    align-items: flex-start;
+    font-family: "Roboto Slab", serif;
+}
+ul {
+    list-style: none;
+    padding-left: 0%;
+    padding-top: 1px;
+}
+li {
+    font-size: 0.9rem;
+    margin: 15px 0px;
+    font-family: "Roboto Slab", serif;
+}
+.f-l-last {
+    color: white;
+    font-size: 0.8rem;
+    padding-top: 40px;
+    border-top: 1px solid #80808073;
+}
+.bot-right-f {
+    display: flex;
+ 
+    margin-top: 100px;
+   
+}
+.bot-right-f > div{
+    width: 30%;
+}
+.footer-last-img-box{
+    position: relative;
+}
+.footer-last-img {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    left: -40%;
+}
+li:hover{
+    cursor: pointer;
+}
+.top-right-f , .bot-right-f{
+    margin-left: 100px;
+}

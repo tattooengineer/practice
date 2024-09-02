@@ -1,0 +1,82 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 90px;
+    background: linear-gradient(45deg, black, #6e6e6e);
+    color: white;
+    position: relative;
+    z-index: 99;
+}
+
+ul.header_ul {
+    display: flex;
+    list-style: none;
+}
+
+li.header_li:hover,
+.header_logo:hover,
+.header_btn_container:hover {
+
+    cursor: pointer;
+}
+
+li.header_li:nth-child(1)::after,
+li.header_li:nth-child(2)::after {
+    content: "";
+    position: absolute;
+    background: url('https://d22ueo28hfk252.cloudfront.net/Content/versioned/2.0.0.1/images/version4/promotion_august_24/zenrik_images/Chevron--down-(1)-17250055604899.png?v=1725005561');
+    background-size: cover;
+    height: 16px;
+    width: 16px;
+    left: 106%;
+    top: 10%;
+}
+
+li.header_li {
+    position: relative;
+    margin: 0px 35px;
+    font-size: 0.9rem;
+}
+
+.header_logo {
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+span.header_logo_diff {
+    color: white;
+}
+
+.header_btn_container {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.header_button {
+    padding: 6px 20px;
+    border-radius: 5px;
+    background: #737272;
+    box-shadow: -7px -5px 5.65px 0px rgba(250, 250, 250, 0.22) inset;
+    text-align: center;
+    color: #FFE9BE;
+}
+
+.button_image {
+    position: absolute;
+    right: -39px;
+
+}
+
+.gradient-border {
+    position: relative;
+    border-radius: 8px;
+    background: linear-gradient(white, white) padding-box,linear-gradient(0deg, #c7c1c1, white) border-box;
+    border: 2px solid transparent;
+}
+
+.gradient-border-bottom {
+    border-bottom: 2px solid transparent;
+    border-image: linear-gradient(to right, transparent, white, transparent) 1;
+}
